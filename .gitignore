@@ -1,0 +1,8 @@
+# .gitignore
+*.pem
+*.tfstate
+*.tfstate.*
+.terraform*
+
+terraform.tfvars
+.crc
