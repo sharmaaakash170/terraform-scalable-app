@@ -1,11 +1,10 @@
 
-# 🚀 Scalable EC2 Web App on AWS (No Docker!)
+# 🚀 Scalable EC2 Web App on AWS
 
 This project demonstrates a fully scalable and production-ready web application hosted on AWS EC2 instances using **Launch Templates**, **Auto Scaling Groups**, and **Application Load Balancer (ALB)** — all provisioned using **Terraform**.
 
 ## ✅ Project Highlights
 
-- **No Docker or Containers**
 - **Launch Template + Auto Scaling Group (ASG)**
 - **Application Load Balancer (ALB) for traffic distribution**
 - **User Data** for bootstrapping EC2 instances
@@ -20,6 +19,7 @@ terraform-scalable-app/
 ├── modules/
 │   ├── vpc/
 │   ├── ec2/
+|   |    └── user-data.sh
 │   ├── asg/
 │   ├── alb/
 │   └── security/
@@ -28,7 +28,6 @@ terraform-scalable-app/
 │       ├── main.tf
 │       ├── variables.tf
 │       └── terraform.tfvars
-├── user-data.sh
 └── README.md
 ```
 
@@ -45,16 +44,12 @@ terraform-scalable-app/
 - **Terraform**
 - **Shell Scripting** (User Data)
 
-## 🌐 Deployment Architecture
-
-![AWS Architecture](./architecture.png)
-
 ---
 
 ### 👋 Let’s Connect
 If you're looking for someone skilled in Cloud Infrastructure and DevOps, feel free to reach out!
 
-[LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)
+[LinkedIn](https://www.linkedin.com/in/aakash-sharma-8937b81aa/) | [GitHub](https://github.com/sharmaaakash170)
 
 ---
 
